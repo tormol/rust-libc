@@ -591,6 +591,7 @@ pub const MAP_32BIT: ::c_int = 0x0040;
 pub const EDEADLOCK: ::c_int = 35;
 
 pub const FIOCLEX: ::c_ulong = 0x5451;
+pub const FIONCLEX: ::c_ulong = 0x5450;
 pub const FIONBIO: ::c_ulong = 0x5421;
 
 pub const PTRACE_GETFPREGS: ::c_uint = 14;

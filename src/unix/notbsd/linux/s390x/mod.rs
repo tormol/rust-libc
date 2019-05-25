@@ -435,6 +435,7 @@ pub const ENOSYS: ::c_int = 38;
 pub const ENOTCONN: ::c_int = 107;
 pub const ETIMEDOUT: ::c_int = 110;
 pub const FIOCLEX: ::c_ulong = 0x5451;
+pub const FIONCLEX: ::c_ulong = 0x5450;
 pub const FIONBIO: ::c_ulong = 0x5421;
 pub const MAP_ANON: ::c_int = 0x20;
 pub const O_ACCMODE: ::c_int = 3;

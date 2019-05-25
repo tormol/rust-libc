@@ -425,6 +425,7 @@ pub const DCCP_SOCKOPT_CCID_TX_INFO: ::c_int = 192;
 pub const DCCP_SERVICE_LIST_MAX_LEN: ::c_int = 32;
 
 pub const FIOCLEX: ::c_ulong = 0x6601;
+pub const FIONCLEX: ::c_ulong = 0x6602;
 pub const FIONBIO: ::c_ulong = 0x667e;
 
 pub const SA_ONSTACK: ::c_int = 0x08000000;

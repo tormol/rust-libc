@@ -433,6 +433,7 @@ pub const MAP_NORESERVE: ::c_int = 0x04000;
 pub const EDEADLOCK: ::c_int = 35;
 
 pub const FIOCLEX: ::c_ulong = 0x5451;
+pub const FIONCLEX: ::c_ulong = 0x5450;
 pub const FIONBIO: ::c_ulong = 0x5421;
 
 pub const MCL_CURRENT: ::c_int = 0x0001;
