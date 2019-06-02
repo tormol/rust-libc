@@ -1290,6 +1290,7 @@ pub const TCSADRAIN: ::c_int = 1;
 pub const TCSAFLUSH: ::c_int = 2;
 
 pub const TIOCINQ: ::c_int = ::FIONREAD;
+pub const FIOQSIZE: ::c_int = 0x545E;
 
 pub const RTLD_GLOBAL: ::c_int = 0x100;
 pub const RTLD_NOLOAD: ::c_int = 0x4;
@@ -1403,7 +1404,9 @@ pub const O_NOFOLLOW: ::c_int = 0x20000;
 pub const O_ASYNC: ::c_int = 0x2000;
 
 pub const FIOCLEX: ::c_int = 0x5451;
+pub const FIONCLEX: ::c_int = 0x5450;
 pub const FIONBIO: ::c_int = 0x5421;
+pub const FIOASYNC: ::c_int = 0x5452;
 
 pub const RLIMIT_RSS: ::c_int = 5;
 pub const RLIMIT_NOFILE: ::c_int = 7;
