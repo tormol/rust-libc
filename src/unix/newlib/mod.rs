@@ -409,6 +409,9 @@ pub const SEEK_END: ::c_int = 2;
 pub const FIONBIO: ::c_ulong = 1;
 pub const FIOCLEX: ::c_ulong = 0x20006601;
 pub const FIONCLEX: ::c_ulong = 0x20006602;
+pub const FIOASYNC: ::c_ulong = 0x8004667d;
+pub const FIOSETOWN: ::c_ulong = 0x8901;
+pub const FIOGETOWN: ::c_ulong = 0x8903;
 pub const FIOQSIZE: ::c_ulong = 0x40086680;
 
 pub const S_BLKSIZE: ::mode_t = 1024;

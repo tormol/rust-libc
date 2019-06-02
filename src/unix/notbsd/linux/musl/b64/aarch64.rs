@@ -426,6 +426,7 @@ pub const B4000000: ::speed_t = 0o010017;
 pub const FIOCLEX: ::c_int = 0x5451;
 pub const FIONCLEX: ::c_int = 0x5450;
 pub const FIONBIO: ::c_int = 0x5421;
+pub const FIOASYNC: ::c_int = 0x5452;
 pub const EDEADLK: ::c_int = 35;
 pub const EDEADLOCK: ::c_int = EDEADLK;
 pub const SO_PASSCRED: ::c_int = 16;

@@ -126,6 +126,7 @@ pub const SO_PEERCRED: ::c_int = 21;
 pub const FIOCLEX: ::c_ulong = 0x20006601;
 pub const FIONCLEX: ::c_ulong = 0x20006602;
 pub const FIONBIO: ::c_ulong = 0x8004667e;
+pub const FIOASYNC: ::c_ulong = 0x8004667d;
 
 pub const MCL_CURRENT: ::c_int = 0x2000;
 pub const MCL_FUTURE: ::c_int = 0x4000;

@@ -136,6 +136,7 @@ pub const SO_RCVBUFFORCE: ::c_int = 33;
 pub const FIOCLEX: ::c_ulong = 0x5451;
 pub const FIONCLEX: ::c_ulong = 0x5450;
 pub const FIONBIO: ::c_ulong = 0x5421;
+pub const FIOASYNC: ::c_ulong = 0x5452;
 
 pub const MCL_CURRENT: ::c_int = 0x0001;
 pub const MCL_FUTURE: ::c_int = 0x0002;

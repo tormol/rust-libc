@@ -175,6 +175,7 @@ pub const O_LARGEFILE: ::c_int = 0x2000;
 pub const FIOCLEX: ::c_int = 0x6601;
 pub const FIONCLEX: ::c_int = 0x6602;
 pub const FIONBIO: ::c_int = 0x667E;
+pub const FIOASYNC: ::c_ulong = 0x667D;
 
 pub const RLIMIT_RSS: ::c_int = 7;
 pub const RLIMIT_NOFILE: ::c_int = 5;
@@ -468,6 +469,8 @@ pub const TIOCMSET: ::c_int = 0x741A;
 pub const FIONREAD: ::c_int = 0x467F;
 pub const FIOQSIZE: ::c_int = 0x667F;
 pub const TIOCCONS: ::c_int = 0x80047478;
+pub const FIOSETOWN: ::c_ulong = 0x8004667c;
+pub const FIOGETOWN: ::c_ulong = 0x4004667b;
 
 pub const TIOCGRS485: ::c_int = 0x4020542E;
 pub const TIOCSRS485: ::c_int = 0xC020542F;

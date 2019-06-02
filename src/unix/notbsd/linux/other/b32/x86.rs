@@ -339,6 +339,7 @@ pub const SO_SNDTIMEO: ::c_int = 21;
 pub const FIOCLEX: ::c_ulong = 0x5451;
 pub const FIONCLEX: ::c_ulong = 0x5450;
 pub const FIONBIO: ::c_ulong = 0x5421;
+pub const FIOASYNC: ::c_ulong = 0x5452;
 
 pub const PTRACE_GETFPXREGS: ::c_uint = 18;
 pub const PTRACE_SETFPXREGS: ::c_uint = 19;

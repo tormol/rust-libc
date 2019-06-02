@@ -437,6 +437,7 @@ pub const ETIMEDOUT: ::c_int = 110;
 pub const FIOCLEX: ::c_ulong = 0x5451;
 pub const FIONCLEX: ::c_ulong = 0x5450;
 pub const FIONBIO: ::c_ulong = 0x5421;
+pub const FIOASYNC: ::c_ulong = 0x5452;
 pub const MAP_ANON: ::c_int = 0x20;
 pub const O_ACCMODE: ::c_int = 3;
 pub const O_APPEND: ::c_int = 1024;

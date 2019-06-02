@@ -630,6 +630,9 @@ pub const TCSAFLUSH: ::c_int = 2;
 
 pub const TIOCLINUX: ::c_ulong = 0x541C;
 pub const TIOCGSERIAL: ::c_ulong = 0x541E;
+pub const FIOSETOWN: ::c_ulong = 0x8901;
+pub const FIOGETOWN: ::c_ulong = 0x8903;
+// TODO other signals for io signaling?
 
 pub const RTLD_DEEPBIND: ::c_int = 0x8;
 pub const RTLD_GLOBAL: ::c_int = 0x100;

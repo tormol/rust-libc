@@ -224,6 +224,7 @@ pub const O_LARGEFILE: ::c_int = 0o0100000;
 pub const FIOCLEX: ::c_int = 0x5451;
 pub const FIONCLEX: ::c_int = 0x5450;
 pub const FIONBIO: ::c_int = 0x5421;
+pub const FIOASYNC: ::c_int = 0x5452;
 
 pub const RLIMIT_RSS: ::c_int = 5;
 pub const RLIMIT_NOFILE: ::c_int = 7;

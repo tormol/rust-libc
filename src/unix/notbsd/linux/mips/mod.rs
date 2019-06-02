@@ -427,6 +427,7 @@ pub const DCCP_SERVICE_LIST_MAX_LEN: ::c_int = 32;
 pub const FIOCLEX: ::c_ulong = 0x6601;
 pub const FIONCLEX: ::c_ulong = 0x6602;
 pub const FIONBIO: ::c_ulong = 0x667e;
+pub const FIOASYNC: ::c_ulong = 0x667d;
 
 pub const SA_ONSTACK: ::c_int = 0x08000000;
 pub const SA_SIGINFO: ::c_int = 0x00000008;
@@ -573,6 +574,8 @@ pub const TIOCMSET: ::c_ulong = 0x741a;
 pub const FIONREAD: ::c_ulong = 0x467f;
 pub const FIOQSIZE: ::c_ulong = 0x667f;
 pub const TIOCCONS: ::c_ulong = 0x80047478;
+pub const FIOSETOWN: ::c_ulong = 0x8004667c;
+pub const FIOGETOWN: ::c_ulong = 0x4004667b;
 
 pub const RTLD_DEEPBIND: ::c_int = 0x10;
 pub const RTLD_GLOBAL: ::c_int = 0x4;

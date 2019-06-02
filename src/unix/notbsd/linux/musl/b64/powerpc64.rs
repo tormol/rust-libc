@@ -450,6 +450,7 @@ pub const SYS_kexec_file_load: ::c_long = 382;
 pub const FIOCLEX: ::c_int = 0x20006601;
 pub const FIONCLEX: ::c_int = 0x20006602;
 pub const FIONBIO: ::c_int = 0x8004667e;
+pub const FIOASYNC: ::c_int = 0x8004667d;
 pub const EDEADLK: ::c_int = 58;
 pub const EDEADLOCK: ::c_int = EDEADLK;
 pub const SO_PASSCRED: ::c_int = 20;
