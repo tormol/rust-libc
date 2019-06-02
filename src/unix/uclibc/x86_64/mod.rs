@@ -265,6 +265,7 @@ pub const EDEADLK: ::c_int = 35; // Resource deadlock would occur
 pub const ENOSYS: ::c_int = 38; // Function not implemented
 pub const ENOTCONN: ::c_int = 107; // Transport endpoint is not connected
 pub const ETIMEDOUT: ::c_int = 110; // connection timed out
+pub const FIOQSIZE: ::c_ulong = 0x545e;
 pub const O_APPEND: ::c_int = 02000;
 pub const O_ACCMODE: ::c_int = 0003;
 pub const O_CLOEXEC: ::c_int = 0x80000;

@@ -785,6 +785,7 @@ pub const TIOCMBIS: ::c_ulong = 0x741b;
 pub const TIOCMBIC: ::c_ulong = 0x741c;
 pub const TIOCMSET: ::c_ulong = 0x741a;
 pub const FIONREAD: ::c_ulong = 0x467f;
+pub const FIOQSIZE: ::c_ulong = 0x667f;
 pub const TIOCCONS: ::c_ulong = 0x80047478;
 
 pub const RTLD_DEEPBIND: ::c_int = 0x10;

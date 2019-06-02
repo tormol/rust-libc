@@ -6,6 +6,8 @@ pub const O_DIRECTORY: ::c_int = 0x4000;
 pub const O_NOFOLLOW: ::c_int = 0x8000;
 pub const O_LARGEFILE: ::c_int = 0o400000;
 
+pub const FIOQSIZE: ::c_int = 0x545E;
+
 pub const SYS_restart_syscall: ::c_long = 0;
 pub const SYS_exit: ::c_long = 1;
 pub const SYS_fork: ::c_long = 2;
