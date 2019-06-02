@@ -398,6 +398,7 @@ pub const SO_SNDTIMEO: ::c_int = 0x4000;
 pub const FIOCLEX: ::c_ulong = 0x20006601;
 pub const FIONCLEX: ::c_ulong = 0x20006602;
 pub const FIONBIO: ::c_ulong = 0x8004667e;
+pub const FIOQSIZE: ::c_ulong = 0x40086680;
 
 pub const MCL_CURRENT: ::c_int = 0x2000;
 pub const MCL_FUTURE: ::c_int = 0x4000;

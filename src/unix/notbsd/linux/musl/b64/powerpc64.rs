@@ -511,6 +511,7 @@ pub const TIOCSRS485: ::c_int = 0x542F;
 
 pub const RLIMIT_NLIMITS: ::c_int = 15;
 pub const TIOCINQ: ::c_int = ::FIONREAD;
+pub const FIOQSIZE: ::c_int = 0x40086680;
 pub const MCL_CURRENT: ::c_int = 0x2000;
 pub const MCL_FUTURE: ::c_int = 0x4000;
 pub const CBAUD: ::tcflag_t = 0xff;

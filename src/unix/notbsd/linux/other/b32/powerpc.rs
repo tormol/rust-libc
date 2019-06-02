@@ -245,6 +245,7 @@ pub const TIOCSWINSZ: ::c_ulong = 0x80087467;
 pub const TIOCGRS485: ::c_int = 0x542e;
 pub const TIOCSRS485: ::c_int = 0x542f;
 pub const FIONREAD: ::c_ulong = 0x4004667f;
+pub const FIOQSIZE: ::c_ulong = 0x40086680;
 
 pub const SYS_restart_syscall: ::c_long = 0;
 pub const SYS_exit: ::c_long = 1;

@@ -54,6 +54,8 @@ pub const O_DIRECTORY: ::c_int = 0x4000;
 pub const O_NOFOLLOW: ::c_int = 0x8000;
 pub const O_LARGEFILE: ::c_int = 0o400000;
 
+pub const FIOQSIZE: ::c_int = 0x545E;
+
 pub const SIGSTKSZ: ::size_t = 16384;
 pub const MINSIGSTKSZ: ::size_t = 5120;
 

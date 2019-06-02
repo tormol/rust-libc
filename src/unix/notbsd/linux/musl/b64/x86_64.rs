@@ -630,6 +630,7 @@ pub const TIOCMBIS: ::c_int = 0x5416;
 pub const TIOCMBIC: ::c_int = 0x5417;
 pub const TIOCMSET: ::c_int = 0x5418;
 pub const FIONREAD: ::c_int = 0x541B;
+pub const FIOQSIZE: ::c_int = 0x545E;
 pub const TIOCCONS: ::c_int = 0x541D;
 
 pub const TIOCM_LE: ::c_int = 0x001;

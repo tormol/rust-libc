@@ -256,6 +256,7 @@ pub const TIOCSWINSZ: ::c_ulong = 0x5414;
 pub const TIOCGRS485: ::c_int = 0x542E;
 pub const TIOCSRS485: ::c_int = 0x542F;
 pub const FIONREAD: ::c_ulong = 0x541B;
+pub const FIOQSIZE: ::c_ulong = 0x545E;
 
 // Syscall table
 pub const SYS_restart_syscall: ::c_long = 0;

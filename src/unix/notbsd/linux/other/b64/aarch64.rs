@@ -553,6 +553,7 @@ pub const TIOCOUTQ: ::c_ulong = 0x5411;
 pub const TIOCGWINSZ: ::c_ulong = 0x5413;
 pub const TIOCSWINSZ: ::c_ulong = 0x5414;
 pub const FIONREAD: ::c_ulong = 0x541B;
+pub const FIOQSIZE: ::c_ulong = 0x5460;
 
 // Syscall table
 pub const SYS_io_setup: ::c_long = 0;
