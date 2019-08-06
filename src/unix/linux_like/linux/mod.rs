@@ -2346,6 +2346,10 @@ pub const UDP_NO_CHECK6_RX: ::c_int = 102;
 pub const UDP_SEGMENT: ::c_int = 103;
 pub const UDP_GRO: ::c_int = 104;
 
+// include/uapi/linux/udplite.h
+pub const UDPLITE_SEND_CSCOV: ::c_int = 10;
+pub const UDPLITE_RECV_CSCOV: ::c_int = 11;
+
 // include/uapi/linux/mman.h
 pub const MAP_SHARED_VALIDATE: ::c_int = 0x3;
 

@@ -952,6 +952,9 @@ pub const TCP_FASTOPEN: ::c_int = 1025;
 pub const TCP_PCAP_OUT: ::c_int = 2048;
 pub const TCP_PCAP_IN: ::c_int = 4096;
 
+pub const UDPLITE_SEND_CSCOV: ::c_int = 2;
+pub const UDPLITE_RECV_CSCOV: ::c_int = 4;
+
 pub const IP_BINDANY: ::c_int = 24;
 pub const IP_BINDMULTI: ::c_int = 25;
 pub const IP_RSS_LISTEN_BUCKET: ::c_int = 26;
