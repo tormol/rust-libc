@@ -969,6 +969,8 @@ pub const SOL_ATALK: ::c_int = 258;
 pub const SOL_NETROM: ::c_int = 259;
 pub const SOL_ROSE: ::c_int = 260;
 
+pub const IPPROTO_UDPLITE: ::c_int = 136;
+
 /* DCCP socket options */
 pub const DCCP_SOCKOPT_PACKET_SIZE: ::c_int = 1;
 pub const DCCP_SOCKOPT_SERVICE: ::c_int = 2;
@@ -989,6 +991,10 @@ pub const DCCP_SOCKOPT_CCID_TX_INFO: ::c_int = 192;
 
 /// maximum number of services provided on the same listening port
 pub const DCCP_SERVICE_LIST_MAX_LEN: ::c_int = 32;
+
+/* UDP-Lite socket options */
+pub const UDPLITE_SEND_CSCOV: ::c_int = 10;
+pub const UDPLITE_RECV_CSCOV: ::c_int = 11;
 
 pub const SO_REUSEADDR: ::c_int = 2;
 pub const SO_TYPE: ::c_int = 3;
